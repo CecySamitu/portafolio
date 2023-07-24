@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(pic/animado.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background: #f2f2f2;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.bg-primary{
+    background-color: #fd9843!important;
+}
+
+.nav-link{
+    color: #653208!important;
+}
+
+.text-bg-primary {
+    background-color: #fd9843!important;
+}
+
+.titulo-proyecto{
+    text-shadow: 2px 5px 30px #000000;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fd9843;
+    height: 5px;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.icono{
+    width: 50px;
+}
+
+#footer-listas{
+    display: flex;
+    justify-content: space-between;
+    border-top-style: ridge;
+}
+
+#footer-listas ul li{
+    padding: 15px;
+}
+
+.div-img{
+    display: grid;
+    place-content: center;
+}
